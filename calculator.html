@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="calcCSS.css">
+    <title>Calculadora</title>
+
+</head>
+
+<body>
+    <div class="container">
+        <form class="calculator" name="calc">
+         
+         <input id="calcNum" value="" type="text" readonly placeholder="0">
+         <span class="num clear" onclick="clearMe()"><i>C</i></span>
+         <span class="num" onclick="showNum('/')"><i>÷</i></span>
+         <span class="num" onclick="showNum('*')"><i>*</i></span>
+         <span class="num" onclick="showNum('7')"><i>7</i></span>
+         <span class="num" onclick="showNum('8')"><i>8</i></span>
+         <span class="num" onclick="showNum('9')"><i>9</i></span>
+         <span class="num" onclick="showNum('-')"><i>-</i></span>
+         <span class="num" onclick="showNum('4')"><i>4</i></span>
+         <span class="num" onclick="showNum('5')"><i>5</i></span>
+         <span class="num" onclick="showNum('6')"><i>6</i></span>
+         <span class="num plus" onclick="showNum('+')"><i>+</i></span>
+         <span class="num" onclick="showNum('1')"><i>1</i></span> 
+         <span class="num" onclick="showNum('2')"><i>2</i></span>
+         <span class="num" onclick="showNum('3')"><i>3</i></span> 
+         <span class="num" onclick="showNum('0')"><i>0</i></span> 
+         <span class="num" onclick="showNum('00')"><i>00</i></span> 
+         <span class="num" onclick="showNum('.')"><i>.</i></span> 
+         <span class="num" onclick="solve()"><i>=</i></span>
+        </form>
+    </div>
+    <script src="calcproject.js"></script>
+</body>
+
+</html>
